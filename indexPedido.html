@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedido de Pizza</title>
+</head>
+<body>
+    <form method="get">
+        <h3>Faça seu Pedido:</h3>
+        <p>Sabores</p>
+          <input type="radio" name="opção" value="calabresa">Calabresa<br>
+          <input type="radio" name="opção" value="mussarela">Mussarela<br>
+          <input type="radio" name="opção" value="frango">Frango<br>
+          <input type="radio" name="opção" value="marguerita">Marguerita<br>
+          <input type="radio" name="opção" value="mexicana">Mexicana<br>
+          <input type="radio" name="opção" value="presunto e queijo">Presunto e queijo<br>
+        <p>Quais adcionais você deseja?</p>
+          <input type="radio" name="opcional[]" value="queijo"> + queijo <br>
+          <input type="radio" name="opcional[]" value="calabresa"> + calabresa <br>
+          <input type="radio" name="opcional[]" value="cebola"> + cebola <br>
+          <input type="radio" name="opcional[]" value="azeitona"> + azeitona <br>
+          <input type="radio" name="opcional[]" value="bacon"> + bacon <br>
+          <input type="radio" name="opcional[]" value="cheddar"> + cheddar <br>
+        <p>Borda recheada?</p>
+          <input type="radio" name="borda" value="sim">Sim<br>
+          <input type="radio" name="borda" value="não">Não<br>
+        <p>Bebidas?</p>
+          <input type="radio" name="bebidas" value="suco">Suco<br>
+          <input type="radio" name="bebidas" value="refrigerante">Refrigerante<br>
+          <input type="radio" name="bebidas" value="agua">Àgua<br>
+          <input type="radio" name="bebidas" value="nenhum">Nenhum<br>
+
+        <button type="submit">Enviar pedido</button>
+
+    </form>
+</body>
+</html>
